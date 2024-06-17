@@ -71,12 +71,12 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/q.png" width={500} height={500} />
+        <Image src="/images/q.png" width={500} height={500} alt="icon" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg text-[#ADB7BE]">I am a full-stack developer with a strong foundation in both front-end and back-end development.
              My experience includes 3 years focused on front-end development, but my skillset spans across various technologies including Java, 
-            C++, Python, Javascript, SQL, and cloud platforms like AWS. I'm also well-versed in design tools (Figma) and possess experience 
+            C++, Python, Javascript, SQL, and cloud platforms like AWS. I&apos;m also well-versed in design tools (Figma) and possess experience 
             with version control (Git) and real-time communication technologies (WebRTC, AgoraRTM). 
             This range of expertise allows me to effectively contribute to all stages of the development lifecycle.
           </p>
