@@ -35,13 +35,13 @@ const HeroSection = () => {
                         databases, and UIs. Proficient in Git and Figma.
                     </p>
                     <div>
-                        <button className="px-6 py-3 mb-3 w-full sm:w-fit rounded-full mr-4 bg-white hover:bg-slate-200 text-black">Contact Me</button>
-                        <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-[#3a506b] hover:bg-gray-700 text-white">Download CV</button>
+                        <a href="mailto:hamza-k18@hotmail.com" className="px-6 py-3 mb-3 w-full sm:w-fit rounded-full mr-4 bg-[#0000FF] hover:bg-[#0000ffbd] text-white">Contact Me</a>
+                        <a href="/HamzaResume-1.pdf" download className="px-6 py-3 w-full sm:w-fit rounded-full bg-[#303877] hover:bg-[#101748] text-white">Download CV</a>
                     </div>
                 </div>
                 <div className="col-span-5 place-self-center mt-4 lg:mt-0">
                     <div className="w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
-                        <Image className="bg-[#111d40] rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" 
+                        <Image className="bg-[#1A5653] rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" 
                         src='/images/profilePic.png' alt="profile pic" width={300} height={500}/>
                     </div>
                 </div>
