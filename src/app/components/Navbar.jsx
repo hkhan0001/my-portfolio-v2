@@ -25,8 +25,8 @@ const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
 
     return (
-        <nav className="fixed top-0 left-0 right-0 z-10 bg-[#050A30] bg-opacity-90">
-            <div className="flex flex-wrap items-center justify-between mx-auto px-4 pt-4">
+        <nav className="fixed top-0 left-0 right-0 z-10 bg-[#050A30] bg-opacity-90 w-full md:w-auto">
+            <div className="flex flex-wrap items-center justify-between mx-auto px-4 pt-4 max-w-7xl">
                 <Link href={"/"}><Image className="top-1/2" src='/images/icon.png' alt="profile pic" width={60} height={60}/></Link>
                 <div >
 
