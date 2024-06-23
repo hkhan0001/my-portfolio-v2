@@ -80,7 +80,7 @@ const AboutSection = () => {
             with version control (Git) and real-time communication technologies (WebRTC, AgoraRTM). 
             This range of expertise allows me to effectively contribute to all stages of the development lifecycle.
           </p>
-          <div className="flex flex-row justify-start mt-8">
+          <div className="flex flex-row flex-wrap justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("languages")}
               active={tab === "languages"}
