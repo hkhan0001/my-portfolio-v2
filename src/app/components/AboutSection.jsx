@@ -10,11 +10,10 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-4">
         <li>Java</li>
-        <li>C++/C</li>
-        <li>C#</li>
         <li>Python</li>
-        <li>JavaScript</li>
+        <li>R</li>
         <li>SQL</li>
+        <li>JavaScript</li>
         <li>HTML/CSS</li>
       </ul>
     ),
@@ -24,11 +23,24 @@ const TAB_DATA = [
     id: "technologies",
     content: (
       <ul className="list-disc pl-4">
+        <li>SQL-Toad/SSMS</li>
         <li>AWS</li>
-        <li>Figma</li>
-        <li>GitHub</li>
-        <li>WebRTC</li>
-        <li>AgoraRTM</li>
+        <li>MS Office</li>
+        <li>Tableau</li>
+        <li>Github</li>
+        <li>JIRA/GitLab</li>
+      </ul>
+    ),
+  },
+  {
+    title: "Business",
+    id: "business",
+    content: (
+      <ul className="list-disc pl-4">
+        <li>Business Process Analysis & Design</li>
+        <li>Requirement Gathering</li>
+        <li>Use Case Modeling</li>
+        <li>Product Management</li>
       </ul>
     ),
   },
@@ -37,12 +49,12 @@ const TAB_DATA = [
     id: "frameworks/libraries",
     content: (
       <ul className="list-disc pl-4">
-        <li>React.js</li>
-        <li>Next.js</li>
-        <li>Vue.js</li>
-        <li>JQuery</li>
+        <li>Agile</li>
+        <li>Waterfall</li>
+        <li>Pandas</li>
+        <li>NumPy</li>
         <li>Java Database Connectivity (JDBC)</li>
-        <li>Javalin (Java web framework)</li>
+        <li>React.js</li>
       </ul>
     ),
   },
@@ -74,11 +86,11 @@ const AboutSection = () => {
         <Image src="/images/q.png" width={500} height={500} alt="icon" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-lg text-[#ADB7BE]">I am a full-stack developer with a strong foundation in both front-end and back-end development.
-             My experience includes 3 years focused on front-end development, but my skillset spans across various technologies including Java, 
-            C++, Python, Javascript, SQL, and cloud platforms like AWS. I&apos;m also well-versed in design tools (Figma) and possess experience 
-            with version control (Git) and real-time communication technologies (WebRTC, AgoraRTM). 
-            This range of expertise allows me to effectively contribute to all stages of the development lifecycle.
+          <p className="text-base lg:text-lg text-[#ADB7BE]">As a skilled data analyst with a proven track record, I have successfully leveraged my expertise in SQL, Python, 
+            and Tableau to drive data-driven decision-making. My ability to extract, clean, and analyze complex datasets has enabled me to uncover valuable insights and optimize 
+            business processes. Through my experience in Agile methodologies and regulatory compliance, I have demonstrated a strong understanding of the entire project lifecycle, 
+            from product conception to Go Live. My proficiency in data visualization allows me to effectively communicate complex findings to both technical and non-technical stakeholders, 
+            empowering them to make informed decisions.
           </p>
           <div className="flex flex-row flex-wrap justify-start mt-8">
             <TabButton

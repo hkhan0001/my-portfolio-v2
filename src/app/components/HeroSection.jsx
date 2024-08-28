@@ -15,11 +15,11 @@ const HeroSection = () => {
                                 sequence={[
                                     'Hamza Khan',
                                     1000,
-                                    'a Full-Stack Developer',
+                                    'a Data-Driven Problem Solver',
                                     1000,
-                                    'a Polyglot Programmer',
+                                    'an Agile Business Analyst',
                                     1000,
-                                    'an Agile Learner',
+                                    'a Data Visualization Expert',
                                     1000
                                 ]}
                                 wrapper="span"
@@ -30,9 +30,9 @@ const HeroSection = () => {
                         </span>
                     </h1>
                     <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-                        Junior developer with strong skills in Java, Python, JavaScript, and 
-                        web frameworks (React.js, Next.js). Experienced in building APIs, 
-                        databases, and UIs. Proficient in Git and Figma.
+                        I am a versatile data analyst with a strong foundation in SQL, Python, 
+                        and Tableau. My experience in extracting, cleaning, and analyzing complex 
+                        datasets enables me to uncover valuable insights and drive data-driven decision-making.
                     </p>
                     <div>
                         <a href="mailto:hamza-k18@hotmail.com" className="px-6 py-3 mb-3 w-full sm:w-fit rounded-full mr-4 bg-[#0000FF] hover:bg-[#0000ffbd] text-white">Contact Me</a>
