@@ -11,8 +11,8 @@ const projectsData = [
     description: "This project involved a comprehensive analysis of retail sales data to uncover valuable insights and identify opportunities for improvement. By leveraging MySQL, Python, and Tableau, I developed a robust data analysis pipeline and created a user-friendly mobile app with React Native to effectively communicate the findings.",
     image: "/images/projects/1.png",
     tag: ["All", "Database"],
-    gitUrl: "https://github.com/hkhan0001/Minimal_Interpreter",
-    previewUrl: "https://github.com/hkhan0001/Minimal_Interpreter",
+    gitUrl: "https://github.com/hkhan0001/Retail-Sales-Project",
+    previewUrl: "https://github.com/hkhan0001/Retail-Sales-Project",
   },
   {
     id: 2,
